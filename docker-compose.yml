@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  radiation-maker:
+    image: radiation-maker
+    build:
+      context: .
+      dockerfile: Dockerfile
